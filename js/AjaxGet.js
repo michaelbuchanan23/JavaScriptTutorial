@@ -10,6 +10,9 @@ function get() {
 }
 
 function display(major) {
+    document.getElementById("pId").textContent = "";
+    document.getElementById("pDescription").textContent = "";
+    document.getElementById("pMinSat").textContent = "";
     if (major == null) {
         document.getElementById("pId").textContent = "ID DOESN'T EXIST";
         document.getElementById("pDescription").textContent = "";
